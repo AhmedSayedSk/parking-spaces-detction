@@ -3,13 +3,13 @@ import math
 import cv2 as cv
 import numpy as np
 
-
 def main(argv):
-    #efault_file = 'Empty1.jpg'
-    default_file = 'Empty2.jpg'
-    #efault_file = 'Empty3.png'
-    #efault_file = 'empty_lot.jpg'
-    #default_file = 'parking_lot.png'
+    main_images_path = '../images/'
+    #efault_file = main_images_path + 'Empty1.jpg'
+    default_file = main_images_path + 'Empty2.jpg'
+    #efault_file = main_images_path + 'Empty3.png'
+    #efault_file = main_images_path + 'empty_lot.jpg'
+    #default_file = main_images_path + 'parking_lot.png'
 
     filename = argv[0] if len(argv) > 0 else default_file
     # Loads an image
