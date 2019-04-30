@@ -5,10 +5,10 @@ import numpy as np
 
 def main(argv):
     main_images_path = '../images/'
-    #efault_file = main_images_path + 'Empty1.jpg'
-    default_file = main_images_path + 'Empty2.jpg'
-    #efault_file = main_images_path + 'Empty3.png'
-    #efault_file = main_images_path + 'empty_lot.jpg'
+    #default_file = main_images_path + 'Empty1.jpg'
+    #default_file = main_images_path + 'Empty2.jpg'
+    default_file = main_images_path + 'Empty3.png'
+    #default_file = main_images_path + 'empty_lot.jpg'
     #default_file = main_images_path + 'parking_lot.png'
 
     filename = argv[0] if len(argv) > 0 else default_file
